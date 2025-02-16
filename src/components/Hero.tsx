@@ -13,7 +13,7 @@ export default function Hero() {
 
     return <>
         <div className="items-center justify-center flex flex-col p-4 h-screen">
-            <h1 className="text-[5rem] md:text-[8rem] font-bold float-up">Hello There!</h1>
+            <h1 className="text-[4rem] md:text-[8rem] font-bold float-up whitespace-nowrap text-center">Hello There!</h1>
             <h2 className="text-[3rem] md:text-[5rem] mt-[-10] font-bold float-up">I am Aaryan.</h2>
             <p className="md:text-[1.2rem] mt-5 float-up text-center">I am a self-taught backend developer from India, <br />currently a First Year Student pursuing Computer Science and Engineering.</p>
         </div>

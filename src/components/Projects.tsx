@@ -21,7 +21,7 @@ export default function Projects() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    return <div className="mt-5">
+    return <div className="mt-5" id="projects">
         <h1 className="px-4 text-[4em] font-bold text-center float-up">My Projects</h1>
         <div className="flex flex-col items-center justify-center">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 px-5">
